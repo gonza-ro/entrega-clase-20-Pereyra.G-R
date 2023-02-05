@@ -1,27 +1,18 @@
 {
-  "type": "module",
-
-  "dependencies": {
-    "better-sqlite3": "^8.0.1",
-    "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "express-handlebars": "^6.0.7",
-    "knex": "^2.4.0",
-    "mysql": "^2.18.1",
-    "mysql2": "^3.1.0",
-    "mysql3": "^0.6.0",
-    "nodemon": "^2.0.20",
-    "npm": "^9.4.0",
-    "socket.io": "^4.5.4"
-  },
-  "name": "",
+  "name": "entrega-clase-20",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Talos9112",
+  "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "mongoose": "^6.9.0"
+  }
 }
