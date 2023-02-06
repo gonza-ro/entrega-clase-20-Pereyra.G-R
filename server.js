@@ -1,15 +1,17 @@
 const express = require(`express`);
-
+console.clear();
 const app = express();
-
+const mongoose = require('mongoose');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+mongoose.set('strictQuery', false);
 
 
 //Routers import
 const productosRouter = require("./routes/productosRouter");
 const carritoRouter = require("./routes/carritoRouter");
+const { credential } = require('firebase-admin');
 
 //Routers
 app.use(`/api/productos`, productosRouter);
