@@ -25,7 +25,9 @@ app.use((req, res, next) => {
 
 const PORT = process.env.PORT || 8080;
 
-const server = app.listen(PORT, () => console.log(`Servidor HHTP escuchando puerto ${PORT}`));
+const server = app.listen(PORT, () => 
+
+console.log(`Servidor HHTP escuchando puerto ${PORT}`));
 
 server.on(`error`, err => console.log(`error en el servidor ${err}`));
 

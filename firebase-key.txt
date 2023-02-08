@@ -1,26 +1,8 @@
+firebase-adminsdk-rrhmz@ecommerce-cdec3.iam.gserviceaccount.com
 
-
-/*---------- conexion de firebase -----------*/
-var admin = require("firebase-admin");
-
-var serviceAccount = require("path/to/serviceAccountKey.json"); 
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
-});
-
-//---------------------  Key de Firebase -----------------------
-
-/* ecommerce-cdec3-firebase-adminsdk-rrhmz-328f59a74d.json */
-
----------------------------------------------------------------
-
-Nodejs/Express Firebase Admin SDK Example
-
-CRUD Web application using Firebasee Admin SDK with Firestore, Nodejs and express
-Environment variables
 
     GOOGLE_APPLICATION_CREDENTIALS
+--------------------------------------------------------------------------
 
 Installation
 

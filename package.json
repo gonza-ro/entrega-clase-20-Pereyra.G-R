@@ -1,28 +1,56 @@
 {
 
   "name": "entrega-clase-20-pereyra.g-r",
+
   "version": "1.0.0",
+
   "description": "",
+
   "main": "server.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+
+    "start": "nodemon server.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
   },
+
   "repository": {
+
     "type": "git",
+
     "url": "git+https://github.com/gonza-ro/entrega-clase-20-Pereyra.G-R.git"
+
   },
+
   "keywords": [],
+
   "author": "",
+
   "license": "ISC",
+
   "bugs": {
+
     "url": "https://github.com/gonza-ro/entrega-clase-20-Pereyra.G-R/issues"
+
   },
+
   "homepage": "https://github.com/gonza-ro/entrega-clase-20-Pereyra.G-R#readme",
+
   "dependencies": {
+
     "dotenv": "^16.0.3",
+
     "express": "^4.18.2",
+
     "firebase-admin": "^11.5.0",
-    "mongoose": "^6.9.0"
+
+    "mongoose": "^6.9.0",
+
+    "nodemon": "^2.0.20"
+
   }
+
 }
+
